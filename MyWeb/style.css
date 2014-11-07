@@ -2867,7 +2867,6 @@ header.active #trigger {
 
 .popover-content {
 	padding: 0;
-	min-width: 210px;
 }
 
 .popover-content .sidebar-searchbox input {
@@ -3102,7 +3101,7 @@ body {
 }
 
 /*-------------------------------------------------------*/
-/* 36. Full Width Image
+/* 36. Fl Width Image
 /*-------------------------------------------------------*/
 
 .fullwidth-image {
@@ -3178,17 +3177,61 @@ body {
 }
 
 
-/*自定义组合搜索框*/
-.group-search{width:260px;margin:0 10px 0 5px;}
-.group-search .input-group{margin-bottom: 10px;}
-.group-search .input-group .input-group-addon{border-left:none;border-radius: 0 5px 5px 0;cursor: pointer;}
-.group-search form{width:100%;margin-top:10px;}
+.popover-content .search-list p{
+	margin: 0;
+	min-width: 210px;
+	background: transparent;
+}
+
+.popover-content .search-list:after {
+	top: 10px;
+}
+
+
+.search-list {
+    position: relative;
+}
+
+/*.search-list p a{
+	width: 100%;
+	height: 50px;
+	margin: 10px auto;
+	padding-left: 20px;
+	padding-right: 40px;
+	text-align: left;
+	font-size: 18px;
+	border-bottom: 2px solid rgba(15, 157, 177, 0.7);
+	display: inline-block;
+	color: #666666;
+}*/
+/*
+.search-list a {
+	text-decoration: none;
+	color: #333333;
+}
+
+
+
+.search-list p{
+	width: 100%;
+	margin: 10px auto;
+	padding-left: 20px;
+	padding-right: 40px;
+
+	background-color: #f7f7f7;
+	color: color: #666666;;
+	border: 0;
+}
+
+.widget .search-list p {
+	color: #000000;
+}
+*/
+
 /* 搜索下拉菜单 */
-.group-search .dropdown{top:44px;left:0;width: 360px;}
-.group-search .dropdown .i-dropdown-triangle{position: absolute;top:-6px;}
-.group-search .dropdown p{height: 38px;line-height: 38px;margin:0;padding:0 10px;font-weight: normal;border-top: 1px dotted #E2E2E2;}
-.group-search .dropdown p.search{display: none;}
-.group-search .dropdown p.title{border-top: none;}
-.group-search .dropdown .btn-success{margin-top:6px;}
-.group-search .dropdown .dropdown-list{max-height: 348px;overflow-y: scroll;}
-.group-search .dropdown .dropdown-list li.question .hide-txt{width: 250px;}
+.search-list p{height: 38px;line-height: 38px;margin:0;padding:0 10px;font-weight: normal;border-top: 1px dotted #E2E2E2;}
+.search-list p.search{display: none;}
+.search-list p.title{border-top: none;}
+.search-list .btn-success{margin-top:6px;}
+.search-list .reco-list{max-height: 348px;overflow-y: scroll;}
+.search-list .reco-list li.question .hide-txt{width: 250px;}

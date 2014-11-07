@@ -40,15 +40,6 @@
 							<input class="form-control" type="text" placeholder="搜索问题、话题或人" autocomplete="off" name="q"  >
 							<span class="input-group-addon" title="搜索" id="search_btns" onclick=""><i class="fa fa-search"></i></span>
 							<div class="clearfix"></div>
-							<!-- <div class="aw-dropdown" style="display: none;">
-								<i class="i-dropdown-triangle"></i>
-								<p class="title">输入关键字进行搜索</p>
-								<ul class="aw-dropdown-list"></ul>
-								<p class="search"><span>搜索:</span><a onclick="$('#global_search_form').submit();"></a></p>
-								<p><a href="javascript:;<? } else { ?>publish" onclick="$('#header_publish').click();" class="pull-right btn btn-normal btn-success publish">发起问题</a></p>
-							</div> -->
-
-
 
 
 						</div>
@@ -79,13 +70,19 @@
 								<li class="menu-item">
 									<a href="#">用户</a>
 								</li>
+
+								<!-- <li class="menu-item">
+									<a href="#"><i class="fa fa-pencil"></i></a>
+								</li> -->
 							</ul>
 						</div>
 					</nav>
 
 					<ul class="navbar-right">
-						
-						
+
+						<a href="#" class="btn btn-primary ">提问</a>
+						<a href="#" class="btn btn-primary ">登录</a>
+						<a href="#" class="btn btn-primary ">注册</a>		
 					</ul>
 
 				</div>
@@ -95,18 +92,26 @@
 	</header>
 	<!-- End Header -->
 
-<!-- popover group -->
-<div id="popover-content" class="hide">
-      <div class="popover-body">
-        <p>One fine body question</p>
-      </div>
-      <div class="modal-footer">
-        <a href="#" class="btn btn-primary ">提问</a>
-</div>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-<script src="js/jquery-1.11.1.js"></script> 
-<!-- Include all compiled plugins (below), or include individual files as needed --> 
-<script src="js/bootstrap.min.js"></script>
-<script src="style.js"></script> 
+	
+
+	<!-- popover group -->
+	<div id="popover-content" class="hide">
+
+		<div class="search-list">
+									
+			<p class="title">输入关键字进行搜索</p>
+			<ul class="reco-list"></ul>
+		<!-- <p class="search"><span>搜索:</span><a onclick="$('#global_search_form').submit();"></a></p>
+									<p><a href="javascript:;<? } else { ?>publish" onclick="$('#header_publish').click();" class="pull-right btn btn-normal btn-success publish">发起问题</a></p> -->
+			<p><a href="#" class="btn btn-primary pull-right">提问</a></p>
+		</div>
+	</div>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-1.11.1.js"></script> 
+	<!-- Include all compiled plugins (below), or include individual files as needed --> 
+	<script src="js/bootstrap.min.js"></script>
+	<script src="style.js"></script> 
+
 </body>
 </html>
