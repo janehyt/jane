@@ -2869,7 +2869,7 @@ header.active #trigger {
 	padding: 0;
 }
 
-.popover-content .sidebar-searchbox input {
+/*.popover-content .sidebar-searchbox input {
 	margin: 0;
 	min-width: 210px;
 	background: transparent;
@@ -2878,7 +2878,7 @@ header.active #trigger {
 .popover-content .sidebar-searchbox:after {
 	top: 10px;
 }
-
+*/
 .popover.left > .arrow:after {
 }
 
@@ -3177,9 +3177,11 @@ body {
 }
 
 
+
+
 .popover-content .search-list p{
 	margin: 0;
-	min-width: 210px;
+	min-width: 240px;
 	background: transparent;
 }
 
@@ -3191,25 +3193,6 @@ body {
 .search-list {
     position: relative;
 }
-
-/*.search-list p a{
-	width: 100%;
-	height: 50px;
-	margin: 10px auto;
-	padding-left: 20px;
-	padding-right: 40px;
-	text-align: left;
-	font-size: 18px;
-	border-bottom: 2px solid rgba(15, 157, 177, 0.7);
-	display: inline-block;
-	color: #666666;
-}*/
-/*
-.search-list a {
-	text-decoration: none;
-	color: #333333;
-}
-
 
 
 .search-list p{
@@ -3226,9 +3209,8 @@ body {
 .widget .search-list p {
 	color: #000000;
 }
-*/
 
-/* 搜索下拉菜单 */
+
 .search-list p{height: 38px;line-height: 38px;margin:0;padding:0 10px;font-weight: normal;border-top: 1px dotted #E2E2E2;}
 .search-list p.search{display: none;}
 .search-list p.title{border-top: none;}
