@@ -581,6 +581,8 @@ h4.page-titles {
 }
 .author-box img {
 	float: left;
+	width: 80px;
+	height:80px;
 }
 
 .author-box .author-name {
@@ -604,13 +606,17 @@ h4.page-titles {
 	color: #eeeeee;
 }
 
+
+
 .author-box .author-social {
+
 	padding: 0;
 	list-style: none;
 	width: 100%;
 	display: inline-block;
 	margin-top: 15px;
 	margin-bottom: 0;
+
 }
 
 .author-box .author-social a {
@@ -3217,3 +3223,21 @@ body {
 .search-list .btn-success{margin-top:6px;}
 .search-list .reco-list{max-height: 348px;overflow-y: scroll;}
 .search-list .reco-list li.question .hide-txt{width: 250px;}
+
+.nav-tabs {
+	background-color: #9e0047;
+	background-color: rgba(15, 157, 177, 0.7);
+}
+
+.nav-tabs > li > a {
+  color: #f1f1f1;
+}
+
+.nav-tabs > li > a:hover{
+  color: #f1f1f1;
+  background-color: #9e0047;
+  background-color: rgba(15, 157, 177, 1);
+  border-color:#9e0047;
+  border-color: rgba(15, 157, 177, 1);
+
+}
