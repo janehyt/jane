@@ -1,0 +1,64 @@
+/*-------------------------------------------------------*/
+/* 9. Blog Author Box
+/*-------------------------------------------------------*/
+
+.question-box {
+	padding: 10px;
+	margin-bottom: 80px;
+	background-color: #9e0047;
+	background-color: rgba(15, 157, 177, 1);
+}
+.question-box img {
+	float: left;
+}
+
+.question-box .q-title {
+	display: inline-block;
+	margin-bottom: 10px;
+	font-size: 16px;
+	color: #eeeeee;
+}
+
+.question-box .q-title a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.question-box .q-summary {
+	margin-left: 120px;
+}
+
+.question-box .q-summary p {
+	color: #eeeeee;
+}
+
+.question-box .qa-social {
+	padding: 0;
+	list-style: none;
+	width: 100%;
+	display: inline-block;
+	margin-top: 15px;
+	margin-bottom: 0;
+}
+
+.author-box .qa-social a {
+	color: #cccccc;
+	text-decoration: none;
+}
+
+.author-box .qa-social a:hover {
+	color: #ffffff;
+}
+
+.author-box .qa-social li {
+	display: inline-block;
+	margin-right: 20px;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.author-box .qa-social i {
+	margin-right: 5px;
+}
+

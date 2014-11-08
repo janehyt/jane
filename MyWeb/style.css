@@ -161,7 +161,7 @@ body > .container {
 /*-------------------------------------------------------*/
 
 header .navbar-inverse {
-	margin-top: 35px;
+	margin-top: 0px;
 	-webkit-transition: all 0.28s ease;
 	-moz-transition: all 0.28s ease;
 	-o-transition: all 0.28s ease;
@@ -285,7 +285,7 @@ header.active nav#main-menu {
 }
 
 .navbar-inverse {
-	background-color: transparent;
+	/*background-color: transparent;*/
 	border-color: transparent;
 }
 
@@ -297,7 +297,7 @@ header.active nav#main-menu {
 .navbar-right li {
 	display: inline-block;
 	padding-top: 0;
-	padding-bottom: 10px;
+	padding-bottom: 0;
 }
 
 .navbar-right li a {
@@ -2826,8 +2826,9 @@ body.onepage-home nav#main-menu {
 	transition: all 0.5s ease;	
 }
 
-.navbar-right li#search {
+.navbar-right li#search ,li#login,li#register,li#rise-ques,li#logout,li#user-space {
 	display: inline-block;
+	position: relative;
 }
 
 #trigger {
