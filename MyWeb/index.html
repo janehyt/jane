@@ -9,7 +9,6 @@
 <!-- Bootstrap -->
 <link href="css/bootstrap.css" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
-<link rel = "stylesheet" href="component.css">
 <link href="http://cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -51,11 +50,9 @@
 						<div class="menu-container">
 							<ul>
 								<li class="menu-item">
-									<a href="#">首页</a>
-								</li>
-								<li class="menu-item">
 									<a href="#">发现</a>
 								</li>
+								
 								<li class="menu-item drop">
 									<a href="#">话题</a>
 									<div class="menu-container">
@@ -67,9 +64,13 @@
 									</div>
 
 								</li>
+
 								<li class="menu-item">
 									<a href="#">用户</a>
 								</li>
+                                <li class="menu-item">
+                                    <a href="#">徽章</a>
+                                </li>
 
 								<!-- <li class="menu-item">
 									<a href="#"><i class="fa fa-pencil"></i></a>
@@ -97,71 +98,161 @@
 
 	<!-- Main Container Section -->		
 		<section class="container">
-			<div id="page-banner">			
-					<h2>Top Questions</h2>
-					<ul class="nav nav-tabs" role="tablist">
-  							<li role="presentation" class="active"><a href="#">最新</a></li>
-  							<li role="presentation"><a href="#">推荐</a></li>
-  							<li role="presentation"><a href="#">热门</a></li>
-  							<li role="presentation"><a href="#">等待回复</a></li>
-                    </ul>
-				</div>
+			<div id="page-banner">           
+                <h2>发现</h2>		
+		          <ul class="nav nav-tabs" role="tablist">
+  				      <li role="presentation" class="active"><a href="#">最新</a></li>
+  				      <li role="presentation"><a href="#">推荐</a></li>
+  				      <li role="presentation"><a href="#">热门</a></li>
+  				      <li role="presentation"><a href="#">等待回复</a></li>
+                  </ul>
+            </div>
+				
 
 			<div id="content-inner">
+
 				<div class="row">
-					<div class="col-md-9">
-						<div class="author-box col-md-12 ">
+					<div class="col-md-9">						
+						<div class="main-questions-list">
+            				<ul id="main_questions_list">
+                				<li class=" type-question  question-item" data-id="">
+    							<div class="col-md-8 col-xs-8 q-left-content">
+        							<div class="q-ltop-content">
+            							<a href="#" class="question-title">
+               						 	What are some of your favorite deep, awe-inspiring, and/or thought-provoking movies? </a>
+        							</div>
+        							<div class="q-lbtm-content">
+            							<div class="question-excerpt">
+                							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat …</p>
+            							</div>
+            							<div class="question-cat">
+                							<div class="question-tags">
+                                        		
+                        							<a  href="#">facebook</a>                                       		
+                        							<a  href="#">google</a>
+                    							
+                        							<a  href="#">movie</a>
+                    							
+                        							<a  href="# ">music</a>
+                    							
+                        							<a  href="# ">social </a>
+                    							
+                                    		</div>
+                							<div class="clearfix"></div>                
+                							<a href="#">
+                    						  <img src="image/ex/member3.jpg" class="avatar media-object" alt=""><span class="author-name">Engine Admin Demo</span>
+                							</a>                    
+                							<span title="69" class="user-badge" style="background-color:#04aad4;">Train</span>                
+                							<span class="question-time">
+                    						Asked on June 9, 2014 in </span>
 
-								<img alt="" src="image/ex/member1.jpg">
-								<div class="author-content">
-									<span class="author-name"><a href="#">我有一个问题</a></span>
-									<p>
-										有问题就可以来发布问题，大家一起想想办法来帮我解决吧。
-									</p>
-								</div>
+                							<span class="question-category">
+                    							<a href="#">C++.</a>
+                							</span>
+            							</div>   
+        							</div>
+    							</div><!-- end left content -->
+    							<div class="col-md-4 col-xs-4 q-right-content">
+        							<ul class="question-statistic">
+            							<li><span class="question-views">23</span>浏览</li>
+           							 	<li class="solved"><span class="question-answers">1</span>回答</li>
+            							<li><span class="question-votes">1</span>投票</li>
+        							</ul>
+    							</div><!-- end right content -->                    
+								</li> 
+								<li class=" type-question  question-item" data-id="">
+    							<div class="col-md-8 col-xs-8 q-left-content">
+        							<div class="q-ltop-content">
+            							<a href="#" class="question-title">
+               						 	What are some of your favorite deep, awe-inspiring, and/or thought-provoking movies? </a>
+        							</div>
+        							<div class="q-lbtm-content">
+            							<div class="question-excerpt">
+                							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat …</p>
+            							</div>
+            							<div class="question-cat">
+                							<div class="question-tags">
+                                                
+                                                    <a  href="#">facebook</a>                                               
+                                                    <a  href="#">google</a>
+                                                
+                                                    <a  href="#">movie</a>
+                                                
+                                                    <a  href="# ">music</a>
+                                                
+                                                    <a  href="# ">social </a>
+                                                
+                                            </div>
+                							<div class="clearfix"></div>                
+                							<a href="#">
+                                              <img src="image/ex/member3.jpg" class="avatar media-object" alt=""><span class="author-name">Engine Admin Demo</span>
+                                            </a>                      
+                							<span title="1521" class="user-badge" style="background-color:#780978;">Professor</span>                
+                							<span class="question-time">
+                    						Asked on June 9, 2014 in </span>
 
-								<ul class="author-social">
-									<li><a href="#"><i class="fa fa-user"></i> 用户名</a></li>
-									<li><a href="#"><i class="fa fa-star"></i> 收藏问题</a></li>
-									<li><a href="#"><i class="fa fa-comments"></i> 5个回答</a></li>
-									<li><a href="#"><i class="fa fa-clock-o"></i> 2天前</a></li>
-									<li><a href="#"><i class="fa fa-tag"></i> java</a></li>
-								</ul>
-							</div>
+                							<span class="question-category">
+                    							<a href="#">Movie.</a>
+                							</span>
+            							</div>   
+        							</div>
+    							</div><!-- end left content -->
+    							<div class="col-md-4 col-xs-4 q-right-content">
+        							<ul class="question-statistic">
+            							<li><span class="question-views">23</span>浏览</li>
+           							 	<li class="unsolved"><span class="question-answers">1</span>回答</li>
+            							<li><span class="question-votes">1</span>投票</li>
+        							</ul>
+    							</div><!-- end right content -->                    
+								</li>
 
-							<div class="author-box col-md-12 ">
-								<img alt="" src="image/light-logo.jpg">
-								<div class="author-content">
-									<span class="author-name">About <a href="#">Iman Gozal M.</a></span>
-									<p>
-										Iman is a theme developer who works in ThemeForest. He's working with the most talented designers in all of marketplaces such as PremiumLayers and Jaynesh.
-									</p>
-								</div>
+								<li class=" type-question  question-item" data-id="">
+    							<div class="col-md-8 col-xs-8 q-left-content">
+        							<div class="q-ltop-content">
+            							<a href="#" class="question-title">
+               						 	What are some of your favorite deep, awe-inspiring, and/or thought-provoking movies? </a>
+        							</div>
+        							<div class="q-lbtm-content">
+            							<div class="question-excerpt">
+                							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat …</p>
+            							</div>
+            							<div class="question-cat">
+                							<div class="question-tags">
+                                                
+                                                    <a  href="#">facebook</a>                                               
+                                                    <a  href="#">google</a>
+                                                
+                                                    <a  href="#">movie</a>
+                                                
+                                                    <a  href="# ">music</a>
+                                                
+                                                    <a  href="# ">social </a>
+                                                
+                                            </div>
+                							<div class="clearfix"></div>               
+                							<a href="#">
+                                              <img src="image/ex/member3.jpg" class="avatar media-object" alt=""><span class="author-name">Engine Admin Demo</span>
+                                            </a>                       
+                							<span title="181" class="user-badge" style="background-color:#450ead;">Reviewer</span>                
+                							<span class="question-time">
+                    						Asked on June 9, 2014 in </span>
 
-								<ul class="author-social">
-									<li><a href="#"><i class="fa fa-facebook"></i> Facebook</a></li>
-									<li><a href="#"><i class="fa fa-twitter"></i> Twitter</a></li>
-									<li><a href="#"><i class="fa fa-google-plus"></i> Google+</a></li>
-									<li><a href="#"><i class="fa fa-envelope-o"></i> Email</a></li>
-								</ul>
-							</div>
-
-							<div class="author-box col-md-12 ">
-								<img alt="" src="image/light-logo.jpg">
-								<div class="author-content">
-									<span class="author-name">About <a href="#">Iman Gozal M.</a></span>
-									<p>
-										Iman is a theme developer who works in ThemeForest. He's working with the most talented designers in all of marketplaces such as PremiumLayers and Jaynesh.
-									</p>
-								</div>
-
-								<ul class="author-social">
-									<li><a href="#"><i class="fa fa-facebook"></i> Facebook</a></li>
-									<li><a href="#"><i class="fa fa-twitter"></i> Twitter</a></li>
-									<li><a href="#"><i class="fa fa-google-plus"></i> Google+</a></li>
-									<li><a href="#"><i class="fa fa-envelope-o"></i> Email</a></li>
-								</ul>
-							</div>
+                							<span class="question-category">
+                    							<a href="#">Movie.</a>
+                							</span>
+            							</div>   
+        							</div>
+    							</div><!-- end left content -->
+    							<div class="col-md-4 col-xs-4 q-right-content">
+        							<ul class="question-statistic">
+            							<li><span class="question-views">23</span>浏览</li>
+           							 	<li class="unsolved"><span class="question-answers">1</span>回答</li>
+            							<li><span class="question-votes">1</span>投票</li>
+        							</ul>
+    							</div><!-- end right content -->                    
+								</li>                                                                                           
+            				</ul>
+        				</div>
 
 					</div>
 
@@ -171,21 +262,21 @@
 							<div class="widget widget_recentposts">
 								<h4>最近回答</h4>
 								<div class="media recent-posts">
-									<a href="#" class="pull-left"><img alt="" class="media-object" src="upload/blog-recent-sidebar-1.jpg"></a>
+									<a href="#" class="pull-left"><img alt="" class="media-object" src="image/ex/member2.jpg"></a>
 									<div class="media-body">
 										<h4 class="media-heading"><a href="#">This is title</a></h4>
 												<aside>Aug 10, 2013</aside>
 									</div>
 								</div>
 								<div class="media recent-posts">
-									<a href="#" class="pull-left"><img alt="" class="media-object" src="upload/blog-recent-sidebar-2.jpg"></a>
+									<a href="#" class="pull-left"><img alt="" class="media-object" src="image/ex/member5.jpg"></a>
 									<div class="media-body">
 										<h4 class="media-heading"><a href="#">When Should I Warm Up Dinner?</a></h4>
 									<aside>Aug 10, 2013</aside>
 									</div>
 								</div>
 								<div class="media recent-posts">
-									<a href="#" class="pull-left"><img alt="" class="media-object" src="upload/blog-recent-sidebar-3.jpg"></a>
+									<a href="#" class="pull-left"><img alt="" class="media-object" src="image/ex/member3.jpg"></a>
 									<div class="media-body">
 										<h4 class="media-heading"><a href="#">This is a Beautiful Post in Blog</a></h4>
 										<aside>Aug 10, 2013</aside>
@@ -194,7 +285,7 @@
 							</div>
 
 							<div class="widget">
-								<h4>分类</h4>
+								<h4>热门分类</h4>
 								<ul class="list-group">
 								  <li class="list-group-item">
 								    <span class="badge">14</span>
@@ -213,7 +304,7 @@
 							</div>	
 
 							<div class="widget">
-								<h4>标签</h4>
+								<h4>热门标签</h4>
 								<div class="tagcloud">
 									<a href="#">Yes</a>
 									<a href="#">Photography</a>
@@ -222,6 +313,7 @@
 									<a href="#">Fashion</a>
 									<a href="#">Inspiration</a>
 									<a href="#">Analytics</a>
+
 								</div>
 							</div>
 										
