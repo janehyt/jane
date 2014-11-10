@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bootstrap 101 Template</title>
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link href="http://cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+   <header>
+            <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+
+                <div class="container">
+                    <!-- brand image icon  -->
+                    <div class="navbar-header">
+                    
+                        <!-- Responsive Menu Trigger -->
+                        <a id="trigger" href="#" title="Menu"><i class="fa fa-bars"></i></a>
+                        
+                        <!-- Website Logo -->
+                        <a class="navbar-brand" href="index.html"><img class="logo2" alt="" src="image/light-logo.png"></a>
+                    </div>
+                    <!-- end brand -->
+                    <!-- search form -->
+                    <form class="navbar-form navbar-left" role="search">
+                        <div class="input-group" id="search-query" data-toggle="popover" data-trigger="focus">
+                            <input class="form-control" type="text" placeholder="搜索问题、话题或人" autocomplete="off" name="q"  >
+                            <span class="input-group-addon" title="搜索" id="search_btns" onclick=""><i class="fa fa-search"></i></span>
+                            <div class="clearfix"></div>
+
+
+                        </div>
+                    </form>
+
+                    <nav id="main-menu">
+                        <div class="menu-container">
+                            <ul>
+                                <li class="menu-item">
+                                    <a href="index.html">发现</a>
+                                </li>
+                                
+                                <li class="menu-item drop">
+                                    <a href="tag.html">话题</a>
+                                    <div class="menu-container">
+                                        <ul>
+                                            <li class="menu-item"><a href="tag.html">标签</a></li>
+                                            <li class="menu-item"><a href="catagory.html">分类</a></li>
+                                        </ul>
+                                    </div>
+
+                                </li>
+
+                                <li class="menu-item">
+                                    <a href="user.html">用户</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="badge.html">徽章</a>
+                                </li>
+
+                                <!-- <li class="menu-item">
+                                    <a href="#"><i class="fa fa-pencil"></i></a>
+                                </li> -->
+                            </ul>
+                        </div>
+                    </nav>
+
+                    <ul class="navbar-right ">
+                        <li id="rise-ques" data-toggle="popover"><a href="#"  title="提问"><i class="fa fa-edit"></i></a></li>
+                        <li id="login" data-toggle="popover"><a href="#"  title="登录"><i class="fa fa-sign-in"></i></a></li>
+                        <li id="register" data-toggle="popover"><a href="#"  title="注册"><i class="fa fa-plus"></i></a></li>
+
+
+                        <li id="user-space" data-toggle="popover"><a href="#"  title=""><i class="fa fa-user"></i></a></li>
+                        <li id="logout" data-toggle="popover"><a href="#"  title="登出"><i class="fa fa-sign-out"></i></a></li>
+                        
+                    </ul>
+
+                </div>
+            </div>
+
+    </header>
+    <!-- End Header -->
+
+    <!-- Main Container Section -->     
+        <section class="container">
+            <div id="page-banner">           
+                <h2>用户</h2>     
+                  <ul class="nav nav-tabs" role="tablist">
+                      <li role="presentation" class="active"><a href="#">姓名</a></li>
+                      <li role="presentation"><a href="#">大牛</a></li>
+                     
+                      
+                  </ul>
+            </div>
+                
+
+            <div id="content-inner">
+
+                <div class="row">
+                    <div class="col-md-9">                      
+                        <!-- <div class="main-user-list"> -->
+           
+                            <div class="user-item col-md-4 col-xs-4">
+                    
+                                <img src="image/ex/member2.jpg" class="media-object" alt=""> 
+                                <div class="left-info">
+                                    <a href="#"><span class="display_name">admin</span></a><br>
+                                    <div class="question-cat">
+                                        <span title="1521" class="user-badge" style="background-color:#780978;">Professor</span>
+                                    </div>
+                                </div>
+            
+                            </div>
+
+                            <div class="user-item col-md-4 col-xs-4">
+                    
+                                <img src="image/ex/member3.jpg" class="media-object" alt=""> 
+                                <div class="left-info">
+                                    <a href="#"><span class="display_name">bear</span></a><br>
+                                    <div class="question-cat">
+                                        <span title="550" class="user-badge" style="background-color:#ffbf00;">Vice Professor</span>
+                                    </div>
+                                </div>
+            
+                            </div>
+
+                             <div class="user-item col-md-4 col-xs-4">
+                    
+                                <img src="image/ex/member5.jpg" class="media-object" alt=""> 
+                                <div class="left-info">
+                                    <a href="#"><span class="display_name">mini</span></a><br>
+                                    <div class="question-cat">
+                                        <span title="133" class="user-badge" style="background-color:#a35429;">Supporter</span>
+                                    </div>
+                                </div>
+            
+                            </div>
+
+                            <div class="user-item col-md-4 col-xs-4">
+                    
+                                <img src="image/ex/member4.jpg" class="media-object" alt=""> 
+                                <div class="left-info">
+                                    <a href="#"><span class="display_name">raeeef</span></a><br>
+                                    <div class="question-cat">
+                                        <span title="69" class="user-badge" style="background-color:#04aad4;">Train</span>
+                                    </div>
+                                </div>
+            
+                            </div>
+
+                        <!-- </div> -->
+                    </div>
+
+                    <div class="col-md-3">
+                        <div id="sidebar-area">
+                                
+                            <div class="widget widget_recentposts">
+                                <h4>最近回答</h4>
+                                <div class="media recent-posts">
+                                    <a href="#" class="pull-left"><img alt="" class="media-object" src="image/ex/member2.jpg"></a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading"><a href="#">This is title</a></h4>
+                                                <aside>Aug 10, 2013</aside>
+                                    </div>
+                                </div>
+                                <div class="media recent-posts">
+                                    <a href="#" class="pull-left"><img alt="" class="media-object" src="image/ex/member5.jpg"></a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading"><a href="#">When Should I Warm Up Dinner?</a></h4>
+                                    <aside>Aug 10, 2013</aside>
+                                    </div>
+                                </div>
+                                <div class="media recent-posts">
+                                    <a href="#" class="pull-left"><img alt="" class="media-object" src="image/ex/member3.jpg"></a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading"><a href="#">This is a Beautiful Post in Blog</a></h4>
+                                        <aside>Aug 10, 2013</aside>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="widget">
+                                <h4>热门分类</h4>
+                                <ul class="list-group">
+                                  <li class="list-group-item">
+                                    <span class="badge">14</span>
+                                    Web
+                                  </li>
+                                  <li class="list-group-item">
+                                    <span class="badge">14</span>
+                                    Java
+                                  </li>
+                                  <li class="list-group-item">
+                                    <span class="badge">14</span>
+                                    C/C++
+                                  </li>
+                                </ul>
+
+                            </div>  
+
+                            <div class="widget">
+                                <h4>热门标签</h4>
+                                <div class="tagcloud">
+                                    <a href="#">Yes</a>
+                                    <a href="#">Photography</a>
+                                    <a href="#">Blog</a>
+                                    <a href="#">Themeforest</a>
+                                    <a href="#">Fashion</a>
+                                    <a href="#">Inspiration</a>
+                                    <a href="#">Analytics</a>
+
+                                </div>
+                            </div>
+                                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+        </section>
+        <!-- End Container -->
+
+    <!-- popover group -->
+    <div id="popover-content" class="hide">
+
+        <div class="search-list">
+                                    
+            <p class="title">输入关键字进行搜索</p>
+            <ul class="reco-list"></ul>
+        <!-- <p class="search"><span>搜索:</span><a onclick="$('#global_search_form').submit();"></a></p>
+                                    <p><a href="javascript:;<? } else { ?>publish" onclick="$('#header_publish').click();" class="pull-right btn btn-normal btn-success publish">发起问题</a></p> -->
+            <p><a href="#" class="btn btn-primary pull-right">提问</a></p>
+        </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    <script src="js/jquery-1.11.1.js"></script> 
+    <!-- Include all compiled plugins (below), or include individual files as needed --> 
+    <script src="js/bootstrap.min.js"></script>
+    <script src="style.js"></script> 
+
+</body>
+</html>

@@ -3421,4 +3421,34 @@ body {
 	width:45px;
 }
 
-.
+.pagination li a:hover{
+	background-color: rgba(15, 157, 177, 1);
+	color:#fff;
+}
+
+.cat-item a{
+	border: none;
+	background: 0;
+	padding: 0;
+	font-size: 15px;
+	color: #3498db;
+}
+.cat-item a:hover{
+	background-color: rgba(15,157,177,1);
+	color:#fff;
+
+}
+
+.user-item img{
+	width:60px;
+}
+.user-item .left-info {
+	display: inline-block;
+	margin-left: 12px;
+	margin-bottom: 15px;
+}
+.left-info .display_name {
+	font-size: 14px;
+	color: #2c3e50;
+	line-height: 25px;
+}
